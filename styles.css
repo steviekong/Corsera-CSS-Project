@@ -1,0 +1,115 @@
+*{
+	box-sizing: border-box;
+	font-family: "Lucida Console", Monaco, monospace;
+	margin:0;
+  	padding: 0;
+		
+}
+h1{
+	text-align: center;
+	margin:5%;
+	font-size: 300%;
+}
+body{
+	margin:1%;
+}
+.row{
+	width:auto;
+
+}
+@media (min-width: 992px){
+	.rd1 , .rd2, .rd3{
+		height:auto;
+		float: left;
+		border: 1px solid black;
+		background-color: #b3e0ff;
+		position: relative;
+		margin: 1%;
+
+	}
+	.rd1{
+		width:31.333% 
+	}
+	.rd2{
+		width:66.66666%;
+	}
+	.rd3{
+		width: 100%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.rt1 , .rt2, .rt3{
+		height:auto;
+		float: left;
+		border: 1px solid black;
+		background-color: #b3e0ff;
+		position: relative;
+		margin: 1%;
+			
+	}
+	.rt1{
+		width: 25%;
+	}
+	.rt2{
+		width:48%;
+	}
+	.rt3{
+		width: 98%;
+	}
+}
+@media (max-width: 767px){
+	.rm1 , .rm2, .rm3{
+		height:auto;
+		float: left;
+		border: 1px solid black;
+		background-color: #b3e0ff;
+		position: relative;
+		margin: 2%;
+	}
+	.rm1{
+		width: 25%;
+	}
+	.rm2{
+		width:50%;
+	}
+	.rm3{
+		width: 96%;
+	}
+}
+p {
+	border: 1px solid black;
+	border-top: 0px;
+	border-right: 0px;
+	top:0px;
+	right:0%;
+	float:left;
+	overflow: auto;
+	font-size: 250%;
+	text-align: center;
+	padding:1% 5% 1% 5%;
+
+
+
+}
+#p1{
+	position: absolute;
+	background-color: #ffcccc;
+}
+#p2{
+	position: absolute;
+	background-color: #ccffdc;	
+}
+#p3{
+	position: absolute;
+	background-color:  #ffeecc;
+}
+#para{
+	text-align: left;
+	top:50%;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 70px;
+	padding-bottom: 20px;
+
+}
+
